@@ -9,7 +9,7 @@ A Julia set arises from complex polynomials. Consider the map
 $$f:\mathbb{C}\rightarrow\mathbb{C} \text{ where } f(z)=z^{2}-p$$
 
 
-If $$(p_{1},p_{2},...)$$ is an orbit under f, then the orbit is bounded if there exists some constant $R>0$ such that $$|p_{n}|<R$$ for all natural numbers n. The filled Julia set for f is the set 
+If $$(p_{1},p_{2},...)$$ is an orbit under f, then the orbit is bounded if there exists some constant $R>0$ such that $$-R<p_{n}<R$$ for all natural numbers n. The filled Julia set for f is the set 
 
 $$(p\in\mathbb{C} | \text{ the orbit of p is bounded })$$
 

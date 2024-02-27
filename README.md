@@ -9,9 +9,9 @@ A Julia set arises from complex polynomials. Consider the map
 $$f:\mathbb{C}\rightarrow\mathbb{C} \text{ where } f(z)=z^{2}-p$$
 
 
-If ${p_{1},p_{2},...}$ is an orbit under f, then the orbit is bounded if there exists some constant $R>0$ such that $|p_{n}|<R$ for all natural numbers $n$. The filled Julia set for $f$ is the set 
+If $$\Bigg{p_{1},p_{2},...\Bigg}$$ is an orbit under f, then the orbit is bounded if there exists some constant $$R>0$$ such that $$|p_{n}|<R$$ for all natural numbers n. The filled Julia set for f is the set 
 
-$${p\in\mathbb{C} | \text{ the orbit of p is bounded }}$$
+$$\Bigg{p\in\mathbb{C} | \text{ the orbit of p is bounded }\Bigg}$$
 
 An example of a filled Julia Set:
 
@@ -19,9 +19,9 @@ An example of a filled Julia Set:
 
 # The Mandelbrot Set
 
-The Mandelbrot set $M$ is a subset of the complex plane defined as
+The Mandelbrot set M is a subset of the complex plane defined as
 
-$$M={c\in\mathbb{C} | \text{ the filled Julia set for } z^{2}+c \text{ is path-connected }}$$
+$$M=\Bigg{c\in\mathbb{C} | \text{ the filled Julia set for } z^{2}+c \text{ is path-connected }\Bigg}$$
 
 Recall that a set is path-connected if every pair of points in the set are connected by a path in the set.
 
